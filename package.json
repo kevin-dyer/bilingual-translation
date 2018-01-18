@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "sudo apt-get install libasound2-dev",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +18,9 @@
     "google-tts": "^1.1.2",
     "http": "0.0.0",
     "util": "^0.10.3"
-  }
+  },
+  "engines": {
+    "node": "8.5.0"
+  },
+  "engineStrict": true
 }
