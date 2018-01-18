@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "sudo apt-get install libasound2-dev",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +14,6 @@
     "@google-cloud/translate": "^1.1.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "google-tts": "^1.1.2",
     "http": "0.0.0",
     "util": "^0.10.3"
   },
